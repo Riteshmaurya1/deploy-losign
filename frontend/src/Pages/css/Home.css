@@ -1,0 +1,51 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.container {
+  text-align: left;
+  margin: 5px;
+  box-sizing: border-box;
+}
+.container2 {
+  text-align: left;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.logout-button {
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  padding: 10px 20px; 
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  cursor: pointer; 
+}
+
+.logout-button:hover {
+  border-radius: 10px;
+  color: rgb(255, 255, 255) !important;
+  background: #292929 !important;
+}

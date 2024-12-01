@@ -29,7 +29,7 @@ const Signup = () => {
       return handleError("Wrong Credentials...");
     }
     try {
-      const url = "http://localhost:3001/auth/signup";
+      const url = "https://deploy-losign-backend.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {

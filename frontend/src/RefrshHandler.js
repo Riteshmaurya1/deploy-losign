@@ -6,7 +6,7 @@ const RefrshHandler = ({setIsAuthenticated}) => {
   const navigate = useNavigate();
   
   useEffect(() => {
-    if (localStorage.getItem("Token")) {
+    if (localStorage.getItem("token")) {
       setIsAuthenticated(true);
       if (
         location.pathname === "/" ||
